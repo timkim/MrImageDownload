@@ -32,7 +32,7 @@ var app = {
         alert('ready');
         var theImage = document.getElementById('logo');
         theImage.ontouchend = function(){
-            MrImageDownload.download(theImage);
+            //MrImageDownload.download(theImage);
         };
     }
 };
