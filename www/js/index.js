@@ -31,7 +31,7 @@ var app = {
     onDeviceReady: function() {
         alert('ready');
         var theImage = document.getElementById('logo');
-        theImage.onTouchEnd = function(imgDownload){
+        theImage.ontouchend = function(imgDownload){
             MrImageDownload.download(theImage);
         }
     },
