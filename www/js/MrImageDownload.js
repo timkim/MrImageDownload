@@ -68,7 +68,7 @@ var MrImageDownload = {
     },
     
     // save to photo album or somewhere on disk
-    saveToPhoto: function(){
+    saveToPhotoLib: function(){
     
     }
 };

@@ -33,10 +33,9 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        var imgDownload = new MrImageDownload();
         var theImage = document.getElementById('logo');
         theImage.onclick = function(imgDownload){
-            imgDownload.download(theImage);
+            MrImageDownload.download(theImage);
         }
     },
 };
