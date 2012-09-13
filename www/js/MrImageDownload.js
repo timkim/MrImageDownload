@@ -26,10 +26,12 @@ var MrImageDownload = {
     //
     // ele: the img element that contains the image we want
     download: function(ele){
+        alert('starting');
         if(!this.theCanvas || !this.theCTX){
             this.initCanvas();
         }
         this.imageToCanvas(ele);
+        alert('image to canvas');
         var theData = this.theCanvas.toDataURL();
         alert(theData);  
     },
