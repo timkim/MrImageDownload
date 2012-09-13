@@ -20,10 +20,6 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
-        var theImage = document.getElementById('logo');
-        theImage.onclick = function(imgDownload){
-            MrImageDownload.download(theImage);
-        }
     },
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);

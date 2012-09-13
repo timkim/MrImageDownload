@@ -31,7 +31,7 @@ var MrImageDownload = {
         }
         this.imageToCanvas(ele);
         var theData = this.theCanvas.toDataURL();
-        
+        alert(theData);  
     },
     
     initCanvas: function(){
